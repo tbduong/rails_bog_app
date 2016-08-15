@@ -1,1 +1,10 @@
 <h1> Creatures </h1>
+
+<% @creatures.each do |creature| %>
+
+     <h3> <b>Name:</b> <%= creature.name %> </h3>
+     <br>
+    <p>
+      <b>Description:</b> <%= creature.description %>
+    </p>
+ <% end %>
